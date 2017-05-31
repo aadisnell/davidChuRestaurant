@@ -8,8 +8,85 @@
     <title>David Chu's China Bistro</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
   </head>
   <body>
+
+    <!-- this is the header part of the website with the logo in plane -->
+
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                 <div class="navbar-header">
+                    <a href="index.html" class="pull-left visible-md visible-lg">
+                      <div id="logo-img" alt="Logo image"></div>
+                    </a>
+                    <div class="navbar-brand">
+                       <a href="index.html"><h1>David chu's china Bistro</h1></a>
+
+                    <p>
+                      <img src="images/star-k-logo.png" alt="Kosher certification">
+                        <span>Kosher Certified</span>
+                    </p>
+                  </div>
+
+                  <!--implementing the toggle button when our website is viewed with devices of small screen --->
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                    <!--end of the implementation of the toggle  navigation --->
+                  </div>
+
+                  <!-- I am trying to grab the collapsable nav and give it to my menu so that any smaller device can see the menu by clicking that toggle sign -->
+
+                  <!-- this shows that small icon for the menu -->
+                  <div id="collapsable-nav" class="collapse navbar-collapse">
+                     <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="menu-categories.html">
+                             <span class="glyphicon glyphicon-cutlery"></span>
+                             <br class="hidden-xs">Menu
+                            </a>
+                          </li>
+                    <!-- this shows  the end of that small icon for the menu -->
+
+                          <!-- this shows that About Us icon  -->
+                          <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-info-sign"></span>
+                                <br class="hidden-xs">About
+                            </a>
+                          </li>
+                          <!-- End -->
+
+                            <!-- this shows that small icon for Awards -->
+                          <li>
+                              <a href="#">
+                                <span class="glyphicon glyphicon-certificate"></span>
+                                <br class="hidden-xs">Awards
+                              </a>
+
+                          </li>
+                          <!-- End -->
+
+                          <li id="phone" class="hidden-xs">
+                            <a href="tel:410-602-5008">
+                              <span>410-602-5008</span>
+                            </a><div>* We Deliver</div>
+
+                          </li>
+
+                     </ul> <!--#nav-list-->
+                  </div>  <!--collapsable nav-bar collapse-->
+            </div>  <!--.container-->
+        </nav>  <!--#header-nav-->
+    </header>
+
+ <!-- the end of the header for our website which mainly consist of the logo, name of the site, phone number -->
 
     <!-- jQuery (Bootstrap JS plugins depend on it) -->
     <script src="js/jquery-2.1.4.min.js"></script>
