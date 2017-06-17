@@ -1,3 +1,4 @@
+
 body {
   font-size: 16px;
   color: #fff;
@@ -59,6 +60,7 @@ body {
 #nav-list a span {
   font-size: 1.8em;
 }
+**/
 
 #phone {
   margin-top: 5px;
@@ -370,3 +372,4 @@ h3.menu-item-title {
     width: 100%;
   }
 }
+
